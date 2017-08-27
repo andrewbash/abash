@@ -1,0 +1,13 @@
+<section class="feed" id="work">
+	<h3 class="sectionTitle">Web Work</h3>
+	<% data.webWork.first(5).each do |webWork| %>
+		<section class="block">
+			<%= image_tag webWork.image, :class => "block__half" %>
+			<div class="block__half">
+				<h4 class="block__title"><%= webWork.title %></h4>
+				<div class="block__copy"><%= webWork.desc %></div>
+				<%= link_to "See Demo", webWork.link, :class => "button" %>
+			</div>
+		</section>
+	<% end %>
+</section>
