@@ -2,7 +2,7 @@
 	<h3 class="sectionTitle">Web Work</h3>
 	<% data.webWork.first(5).each do |webWork| %>
 		<section class="block">
-			<%= image_tag webWork.image, :class => "block__half" %>
+			<%= image_tag lorem.image('300x300'), :class => "block__half" %>
 			<div class="block__half">
 				<h4 class="block__title"><%= webWork.title %></h4>
 				<div class="block__copy"><%= webWork.desc %></div>
