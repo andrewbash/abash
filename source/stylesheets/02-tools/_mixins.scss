@@ -1,0 +1,7 @@
+@mixin transition {
+    transition: 200ms all;
+}
+
+@mixin transition--delay {
+    transition: 200ms 100ms all;
+}

@@ -4,7 +4,7 @@
     padding:.25em .75em;
     color: $color__bodyBackground;
     text-decoration: none;
-    transition: 200ms 100ms all;
+    @include transition--delay;
     text-transform:uppercase;
     font-family: $font__main;
 }
@@ -12,7 +12,7 @@
 .button:hover {
     background-color:$color__bodyHeader;
     color: $color__bodyBackground;
-    transition: 200ms all;
+    @include transition;
     box-shadow: 0px 3px 12px 0px rgba($color__bodyHeader,0.3);
 }
 
