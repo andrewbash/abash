@@ -1,0 +1,26 @@
+.button {
+    background-color: $color__primary;
+    border-radius:2em;
+    padding:.25em .75em;
+    color: $color__bodyBackground;
+    text-decoration: none;
+    transition: 200ms 100ms all;
+    text-transform:uppercase;
+    font-family: $font__main;
+}
+
+.button:hover {
+    background-color:$color__bodyHeader;
+    color: $color__bodyBackground;
+    transition: 200ms all;
+    box-shadow: 0px 3px 12px 0px rgba($color__bodyHeader,0.3);
+}
+
+.button--secondary {
+    background-color: $color__bodyBackground;
+    color: $color__primary;
+}
+
+.button--secondary:hover {
+    background-color: $color__highlight;
+}
