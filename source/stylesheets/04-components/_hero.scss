@@ -1,0 +1,28 @@
+.hero {
+    background-color: $color__primary;
+    color:$color__bodyBackground; 
+    font-size:1.25em;
+}
+
+.hero .container {
+    padding: 2em 6em 6em;
+}
+
+.hero__title {
+    max-width:5em;
+    margin:0;
+    color:$color__bodyBackground;
+}
+
+.hero__title strong {
+    font-weight:700;
+}
+
+.hero__subtitle {
+    font-size:1em;
+    color:$color__bodyBackground;
+}
+
+.hero .icon svg {
+    fill: $color__bodyBackground;
+}
