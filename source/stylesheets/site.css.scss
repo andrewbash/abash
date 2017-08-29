@@ -1,24 +1,45 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+/*--------------------------------------------------------------
+# NORMALIZE
+--------------------------------------------------------------*/
+@import "normalize";
 
-a {
-  color: rgba(#000, 0.7);
+/*--------------------------------------------------------------
+# 01 VARIABLES
+--------------------------------------------------------------*/
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
+@import "01-variables/colors";
+@import "01-variables/typography";
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
+/*--------------------------------------------------------------
+# 02 TOOLS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# 03 BASE
+--------------------------------------------------------------*/
+
+@import "03-base/box-sizing";
+@import "03-base/copy";
+@import "03-base/grid";
+@import "03-base/headings";
+@import "03-base/images";
+@import "03-base/links";
+@import "03-base/lists";
+@import "03-base/tables";
+@import "03-base/typography";
+
+
+/*--------------------------------------------------------------
+# 04 COMPONENTS
+--------------------------------------------------------------*/
+
+@import "04-components/buttons";
+
+
+/*--------------------------------------------------------------
+# 05 TRUMPS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# 06 PLUGINS
+--------------------------------------------------------------*/
