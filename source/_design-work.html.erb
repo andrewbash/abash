@@ -1,4 +1,8 @@
 <section class="feed feed--secondary">
 	<h3 class="sectionTitle">Design Work</h3>
-	Slider thing here
+	<% data.designWork.first(6).each do |designWork| %>
+		<%= image_tag lorem.image('300x300'), :class => "block__third" %>
+	<% end %>
 </section>
+
+

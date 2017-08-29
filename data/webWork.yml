@@ -3,4 +3,15 @@
   desc: "<p>MJ2 Marketing is a digital marketing firm in Dublin, Ohio. This project was part of an internal rebranding effort, during which I was employed as a full time Project Manager and Web Developer.</p>
       <p>To complete this project I met with key project stakeholders and collaborated with a designer in order to design and develop a custom WordPress template.</p>"
   link: "http://test.com"
+- title: "Color Demo"
+  desc: "<p>The Color Demo is an application designed to allow the user to preview various roof swatches on an example photo of a house. The application uses Javascript to dynamically update a series of SVG patterns.</p>"
+- title: "Lyn Roe Website"
+  desc: "<p>Lyn Roe is a high-end Italian denim brand based on Columbus, Ohio. They approached the MJ2 Marketing team looking to build a new website with a clean, trendy design and a flexible Wordpress front end for client updates down the road.</p>
+<p>During this project, I functioned as a key member of the design team, as well as development lead. My responsibilities included managing all aspects of the development process, as well as programming the majority of the custom Wordpress theme.</p>"
+- title: "Priority Mortgage Website"
+  desc: "<p>Priority Mortgage is a mortgage loan company in Westerville, Ohio. After working regularly on this account at MJ2 Marketing, Priority approached us, requesting a new, modern website to help them compete with the evolving mortgage landscape.</p>
+  <p>During this project, I functioned as a key member of the design team, as well as development lead. My responsibilities included managing all aspects of the development process, as well as programming the majority of the custom Wordpress theme.</p>"
+- title: "Legacy Maintenance Website"
+  desc: "<p>CorpServ is a custom WordPress theme, designed to showcase a variety of services offered to large corporations.</p>"
 ---
+
