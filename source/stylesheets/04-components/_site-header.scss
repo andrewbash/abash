@@ -1,0 +1,24 @@
+.site__header {
+    background-color: $color__primary;
+    color: $color__bodyBackground;
+    padding:1em 0;
+}
+
+.site__logo {
+    fill: $color__bodyBackground;
+    flex:0 1 auto;
+}
+
+.site__nav {
+    flex:1 0 auto;
+    text-align:right;
+    align-self:center;
+    font-family: $font__main;
+    text-transform:uppercase;
+}
+
+.nav__link {
+    padding:.5em;
+    text-decoration: none;
+    color: $color__bodyBackground;
+}
