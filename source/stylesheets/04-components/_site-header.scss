@@ -4,6 +4,11 @@
     padding:1em 0;
 }
 
+.site__header .container {
+    max-width: 896px;
+    margin-top:0;
+}
+
 .site__logo {
     fill: $color__bodyBackground;
     flex:0 1 auto;
