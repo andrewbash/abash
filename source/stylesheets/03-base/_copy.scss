@@ -32,6 +32,11 @@ h6 {
     font-size:.75em;
 }
 
+p {
+    font-size:1.2em;
+    line-height: 1.6;
+}
+
 .lightweight {
     font-weight:200;
 }
@@ -40,10 +45,15 @@ h6 {
     color: $color__primary;
 }
 
+.sectionTitle {
+    margin:0;
+}
+
 .sectionTitle strong:after {
     content:"";
     display:block;
     height: 2px;
     width: 7rem;
+    margin:.15em 0 0 0;
     background-color: $color__primary;
 }
