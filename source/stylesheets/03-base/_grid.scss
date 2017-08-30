@@ -4,6 +4,7 @@ body {
 
 .row {
     display:flex;
+    align-items: flex-start
 }
 
 .container {
@@ -17,4 +18,22 @@ body {
 
 .container--constrained {
     max-width:720px;
+}
+
+img.column {
+    width:100%;
+    height:100%;
+}
+
+.column:first-child {
+    margin-left:0;
+}
+
+.column:last-child {
+    margin-right:0;
+}
+
+.one-half {
+    flex:1 1 50%;
+    margin:0 1em
 }
