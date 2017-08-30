@@ -1,4 +1,10 @@
 .callout {
     text-align: center;
-    padding:3em 0;
+    padding:4em 0;
+    display: block;
+}
+
+.callout .container {
+    max-width: 896px;
+    margin-top:0;
 }

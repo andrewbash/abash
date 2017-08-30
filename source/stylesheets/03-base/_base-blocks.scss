@@ -7,12 +7,22 @@ body {
 
 }
 
-.highlight--alt {
+.highlight--secondary {
     background-color: $color__highlight;
     color:$color__bodyBackground;
 }
 
-.highlight--alt .sectionTitle {
+.highlight--secondary .sectionTitle {
+    color:$color__bodyBackground;
+    margin-bottom:.5em;
+}
+
+.highlight--tertiary {
+    background-color: $color__bodyHeader;
+    color:$color__bodyBackground;
+}
+
+.highlight--tertiary .sectionTitle, .highlight--tertiary .site__title {
     color:$color__bodyBackground;
     margin-bottom:.5em;
 }
