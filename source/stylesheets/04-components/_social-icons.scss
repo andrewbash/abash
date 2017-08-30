@@ -1,3 +1,8 @@
 .icon {
     text-decoration:none;
+    padding: 0 .25em;
+}
+
+.icon:first-child {
+    padding:0 .25em 0 0;
 }

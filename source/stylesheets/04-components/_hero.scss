@@ -25,4 +25,12 @@
 
 .hero .icon svg {
     fill: $color__bodyBackground;
+    @include transition--delay;
+}
+
+
+.hero .icon:hover svg {
+    @include transition;
+    fill: $color__highlight;
+    
 }
