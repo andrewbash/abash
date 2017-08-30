@@ -1,0 +1,18 @@
+body {
+    background-color:$color__background;
+}
+
+.highlight {
+    background-color:$color__secondary;
+
+}
+
+.highlight--alt {
+    background-color: $color__highlight;
+    color:$color__bodyBackground;
+}
+
+.highlight--alt .sectionTitle {
+    color:$color__bodyBackground;
+    margin-bottom:.5em;
+}
