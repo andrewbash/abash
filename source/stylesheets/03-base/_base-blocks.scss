@@ -4,7 +4,17 @@ body {
 
 .highlight {
     background-color:$color__secondary;
+    padding:2em 0;
+}
 
+.highlight--push {
+    margin-top:3em;
+}
+
+.highlight .container {
+    max-width: 960px;
+    margin:0 auto;
+    padding:32px;
 }
 
 .highlight--secondary {
