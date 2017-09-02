@@ -1,0 +1,26 @@
+---
+- title: "Web Designer and Developer"
+  company: "MJ2 Marketing"
+  start: "November 2012"
+  end: "present"
+  quals: 
+    - "Pioneered and managed the Web Design and Development department, growing it from $X-Yk in annual revenue, to $XXk in revenue during 2017."
+    - "Wrote all website proposals and collateral for sales team and attended most client sales meetings."
+    - "Worked with clients and team members to design wireframes, sitemaps, and digital comps for X websites per month, and attended or led all client presentations."
+    - "Worked with clients and team members to develop and launch Y websites per month."
+    - "Managed development process and defined all coding standards, version control, data architecture, and distribution of labor."
+- title: "Freelancer"
+  company: "Various Clients"
+  start: "May 2012"
+  end: "Present"
+  quals:
+    - "Worked one-on-one with clients, as well as with creative teams to develop custom WordPress websites."
+    - "Worked with creative teams to develop custom Javascript functionality for use on client websites."
+- title: "Design Intern"
+  company: "Cedarville University Creative Services"
+  start: "June 2011"
+  end: "August 2011"
+  quals:
+    - "Worked with clients and a creative director to design promotional materials in both print and digital formats."
+---
+
