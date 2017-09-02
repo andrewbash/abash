@@ -5,7 +5,7 @@
 			<strong>Work</strong>
 		</h3>
 		<section class="feed__gallery">
-			<% data.designWork.first(6).each do |designWork| %>
+			<% data.portfolio.designWork.first(6).each do |designWork| %>
 				<%= image_tag lorem.image('300x300'), :class => "gallery__item" %>
 			<% end %>
 		</section>
