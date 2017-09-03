@@ -5,47 +5,54 @@
 			<strong>Resume</strong>
 		</h3>
 		<div class="row">
-			<article class="story two-thirds column">
-				<h4 class="story__title">Experience</h4>
-				<% data.resume.experience.each do |experience| %>
-					<section class="story__entry">
-						<h5 class="entry__title"><%= experience.title %></h5>
-						<h6 class="entry__subtitle"><%= experience.company %></h6>
-						<p class="entry__meta"><%= experience.start %> - <%= experience.end %></p>
-						<% experience.quals.each do |qual| %>
-							<p class="entry__para"><%= qual %></p>
-						<% end %>
-					</section>
-				<% end %>
-
-				<h4 class="story__title">Education</h4>
-				<% data.resume.education.each do |education| %>
-					<section class="story__entry">
-						<h5 class="entry__title"><strong><%= education.degree %></strong>, <%= education.major %></h5>
-						<h6 class="entry__subtitle"><%= education.school %></h6>
-						<p class="entry__meta"><%= education.start %> - <%= education.end %></p>
-						<% education.quals.each do |qual| %>
-							<p class="entry__para"><%= qual %></p>
-						<% end %>
-					</section>
-				<% end %>
-			</article>
-
-			<aside class="story one-third column">
-				<h4 class="story__title">Technology</h4>
-				<ul class="story__list">
-					<% data.resume.technology.each do |tech| %>
-						<li><%= tech %></li>
+			<div class="two-thirds column">
+				<article class="story">
+					<h4 class="story__title">Experience</h4>
+					<% data.resume.experience.each do |experience| %>
+						<section class="story__entry">
+							<h5 class="entry__title"><%= experience.title %></h5>
+							<h6 class="entry__subtitle"><%= experience.company %></h6>
+							<p class="entry__meta"><%= experience.start %> - <%= experience.end %></p>
+							<% experience.quals.each do |qual| %>
+								<p class="entry__para"><%= qual %></p>
+							<% end %>
+						</section>
 					<% end %>
-				</ul>
-				<h4 class="story__title">Projects</h4>
-				<% data.portfolio.webWork.each do |project| %>
-					<section class="story__entry">
-						<h5 class="entry__title"><%= project.title %></h5>
-						<p class="entry__para"><%= project.short %></p>
-					</section>
-				<% end %>
-			</aside>
+				</article>
+			
+				<article class="story">
+					<h4 class="story__title">Education</h4>
+					<% data.resume.education.each do |education| %>
+						<section class="story__entry">
+							<h5 class="entry__title"><strong><%= education.degree %></strong>, <%= education.major %></h5>
+							<h6 class="entry__subtitle"><%= education.school %></h6>
+							<p class="entry__meta"><%= education.start %> - <%= education.end %></p>
+							<% education.quals.each do |qual| %>
+								<p class="entry__para"><%= qual %></p>
+							<% end %>
+						</section>
+					<% end %>
+				</article>
+			</div>
+			<div class="one-third column">
+				<aside class="story">
+					<h4 class="story__title">Technology</h4>
+					<ul class="story__list">
+						<% data.resume.technology.each do |tech| %>
+							<li><%= tech %></li>
+						<% end %>
+					</ul>
+				</aside>
+				<aside class="story">
+					<h4 class="story__title">Projects</h4>
+					<% data.portfolio.webWork.each do |project| %>
+						<section class="story__entry">
+							<h5 class="entry__title"><%= project.title %></h5>
+							<p class="entry__para"><%= project.short %></p>
+						</section>
+					<% end %>
+				</aside>
+			</div>
 		
 		</div>
 	</div>
