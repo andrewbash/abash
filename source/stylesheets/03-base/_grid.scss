@@ -21,6 +21,10 @@ img.column {
     height:100%;
 }
 
+.column {
+    margin:0 1.25em;
+}
+
 .column:first-child {
     margin-left:0;
 }
@@ -31,15 +35,12 @@ img.column {
 
 .one-half {
     flex:1 1 50%;
-    margin:0 1em
 }
 
 .one-third {
     flex:1 1 33.33%;
-    margin:0 1em;
 }
 
 .two-thirds {
     flex:1 1 66.66%;
-    margin:0 1em;
 }
