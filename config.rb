@@ -38,7 +38,7 @@ helpers do
     root = Middleman::Application.root
     file_path = "#{root}/source/images/svg/#{name}.svg"
     return File.read(file_path) if File.exists?(file_path)
-    '(not found)'
+    name
   end
 end
 
