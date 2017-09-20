@@ -1,0 +1,10 @@
+---
+- network: 'facebook'
+  link: 'https://www.facebook.com/andrewbash'
+- network: 'linkedin'
+  link: 'https://www.linkedin.com/in/andrew-bash-07a4ba17/'
+- network: 'twitter'
+  link: 'https://twitter.com/andrewnbash'
+- network: 'github'
+  link: 'https://github.com/andrewbash'
+---

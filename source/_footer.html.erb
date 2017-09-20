@@ -5,18 +5,9 @@
         <div class="container">
             <h1 class="site__title">Andrew Bash</h1>
             <section class="socialIcons">
-                <a href="#" class="icon icon--facebook">
-                    <%= svg 'facebook' %>
-                </a>
-                <a href="#" class="icon icon--linkedin">
-                    <%= svg 'linkedin' %>
-                </a>
-                <a href="#" class="icon icon--twitter">
-                    <%= svg 'twitter' %>
-                </a>
-                <a href="#" class="icon icon--github">
-                    <%= svg 'github' %>
-                </a>
+                <% data.social.each do |social| %>
+                    <a href='<%= social.link %>' class="icon"><%= svg social.network %></a>
+                <% end %>
             </section>
         </div>
     </secton>
