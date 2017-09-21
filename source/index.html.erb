@@ -1,39 +1,26 @@
 ---
 title: Andrew Bash - Web Designer and Developer in Columbus, Ohio
 ---
-<section class="hero" id="home">
-  <div class="container">
-    <h1 class="lightweight hero__title">
-      Hi, I'm<br>
-      <strong>Andrew Bash.</strong>
-    </h1>
-    <h2 class="lightweight hero__subtitle">Web Designer and Developer in Columbus, Ohio</h2>
-    <section class="socialIcons">
-        <% data.social.each do |social| %>
-            <a href='<%= social.link %>' class="icon"><%= svg social.network %></a>
-        <% end %>
-    </section>
-  </div>
-</section>
-
-<section class="container" id="about">
-  <div class="container__inner primaryInfo">
-    <div class="primaryInfo__content">
-      <h3 class="sectionTitle">
-        Passion.<br>
-        Dedication.<br> 
-        <strong>Hard Work.</strong>
-      </h3>
-      <p>I am a Web Designer and Developer from Columbus, Ohio. I live and breathe "web", and am constnatly seeking to improve and evolve my skillset.</p>
-      <p>Take a look at my work, and if you're interested please don't hesitate to reach out.</p>
+<div class="site__body">
+  <section class="container" id="about">
+    <div class="container__inner primaryInfo">
+      <div class="primaryInfo__content">
+        <h3 class="sectionTitle">
+          Passion.<br>
+          Dedication.<br> 
+          <strong>Hard Work.</strong>
+        </h3>
+        <p>I am a Web Designer and Developer from Columbus, Ohio. I live and breathe "web", and am constnatly seeking to improve and evolve my skillset.</p>
+        <p>Take a look at my work, and if you're interested please don't hesitate to reach out.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<%= partial "web-work" %>
+  <%= partial "web-work" %>
 
-<%= partial "design-work" %>
+  <%= partial "design-work" %>
 
-<%= partial "resume" %>
+  <%= partial "resume" %>
+</div>
 
 <%= partial "footer" %>

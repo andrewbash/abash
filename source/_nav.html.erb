@@ -9,4 +9,18 @@
             <a class="nav__link button button--secondary" href="#contact">Contact</a>
         </nav>
     </div>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="lightweight hero__title">
+            Hi, I'm<br>
+            <strong>Andrew Bash.</strong>
+            </h1>
+            <h2 class="lightweight hero__subtitle">Web Designer and Developer in Columbus, Ohio</h2>
+            <section class="socialIcons">
+                <% data.social.each do |social| %>
+                    <a href='<%= social.link %>' class="icon"><%= svg social.network %></a>
+                <% end %>
+            </section>
+        </div>
+    </section>
 </header>
