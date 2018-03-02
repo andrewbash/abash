@@ -6,11 +6,15 @@
 		</h3>
 		<% data.portfolio.webWork.first(5).each do |webWork| %>
 			<section class="feed__info row">
-				<%= image_tag lorem.image('300x300'), :class => "column one-half" %>
+				<div class="column one-half">
+					<%= image_tag (webWork.image) %>
+				</div>
 				<div class="column one-half">
 					<h4 class="info__title"><%= webWork.title %></h4>
 					<div class="info_copy"><%= webWork.desc %></div>
-					<%= link_to "See Demo", webWork.link, :class => "button" %>
+					<% if webWork.link %>
+						<%= link_to "See Demo", webWork.link, :class => "button" %>
+					<% end %>
 				</div>
 			</section>
 		<% end %>
